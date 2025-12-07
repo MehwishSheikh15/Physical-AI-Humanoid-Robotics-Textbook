@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+*.log
+.env*
+.docusaurus/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+tmp/
+src/
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
