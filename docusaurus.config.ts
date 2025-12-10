@@ -20,7 +20,7 @@ const config: Config = {
 
   // GitHub Pages settings
   url: "https://MehwishSheikh15.github.io",
-  baseUrl: "/Physical-AI-Humanoid-Robotics-Textbook/",
+  baseUrl: "/",
 
   organizationName: "MehwishSheikh15",
   projectName: "Physical-AI-Humanoid-Robotics-Textbook",
