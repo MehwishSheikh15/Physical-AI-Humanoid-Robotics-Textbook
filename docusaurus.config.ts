@@ -15,16 +15,11 @@ const config: Config = {
   },
 
   customFields: {
-<<<<<<< HEAD
-    githubRepoUrl:
-      "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook",
-=======
     githubRepoUrl: "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook",
->>>>>>> 28faa9d4d9ca1b73b7057af050e365510a0f7bcf
   },
 
   // GitHub Pages settings
-  url: "https://mehwishsheikh15.github.io",
+  url: "https://MehwishSheikh15.github.io",
   baseUrl: "/Physical-AI-Humanoid-Robotics-Textbook/",
 
   organizationName: "MehwishSheikh15",
@@ -50,21 +45,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-<<<<<<< HEAD
-          editUrl:
-            "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook/edit/master/",
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook/edit/master/blog/",
-=======
           editUrl: "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook/edit/master/",
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl: "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook/edit/master/blog/",
->>>>>>> 28faa9d4d9ca1b73b7057af050e365510a0f7bcf
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -113,33 +94,15 @@ const config: Config = {
         {
           title: "Community",
           items: [
-<<<<<<< HEAD
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-=======
             { label: "Stack Overflow", href: "https://stackoverflow.com/questions/tagged/docusaurus" },
             { label: "Discord", href: "https://discordapp.com/invite/docusaurus" },
->>>>>>> 28faa9d4d9ca1b73b7057af050e365510a0f7bcf
             { label: "X", href: "https://x.com/docusaurus" },
           ],
         },
         {
           title: "More",
           items: [
-<<<<<<< HEAD
-            {
-              label: "GitHub",
-              href: "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook",
-            },
-=======
             { label: "GitHub", href: "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook" },
->>>>>>> 28faa9d4d9ca1b73b7057af050e365510a0f7bcf
           ],
         },
       ],
