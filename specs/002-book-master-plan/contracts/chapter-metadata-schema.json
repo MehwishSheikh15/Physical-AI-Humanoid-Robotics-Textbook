@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Chapter Metadata Schema",
+  "description": "Schema for validating YAML frontmatter in Docusaurus chapter Markdown files.",
+  "type": "object",
+  "properties": {
+    "week": {
+      "type": "integer",
+      "description": "The week number in the course schedule this chapter is covered.",
+      "minimum": 1,
+      "maximum": 13
+    },
+    "module": {
+      "type": "string",
+      "description": "The ID of the module this chapter belongs to (e.g., '01-introduction').",
+      "pattern": "^[0-9]{2}-[a-z0-9-]+$"
+    },
+    "prerequisites": {
+      "type": "array",
+      "description": "List of required prior knowledge or chapters.",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "learning_objectives": {
+      "type": "array",
+      "description": "Specific learning objectives for this chapter.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "sidebar_label": {
+      "type": "string",
+      "description": "The label to display in the Docusaurus sidebar.",
+      "minLength": 1
+    },
+    "assessment_type": {
+      "type": "string",
+      "description": "Type of assessment associated with the chapter.",
+      "enum": ["quiz", "assignment", "project", "none"]
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "Difficulty level of the chapter.",
+      "enum": ["beginner", "intermediate", "advanced"]
+    },
+    "capstone_component": {
+      "type": "boolean",
+      "description": "True if this chapter contributes to the capstone project."
+    },
+    "title": {
+      "type": "string",
+      "description": "The title of the chapter. Often derived from H1 in Markdown but can be explicitly set.",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "week",
+    "module",
+    "learning_objectives",
+    "sidebar_label",
+    "difficulty",
+    "title"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Production & Build Artifacts
+build/
+dist/
+
+# Generated files by Docusaurus
+.docusaurus/
+.cache-loader/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor and OS generated files
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+.cache/

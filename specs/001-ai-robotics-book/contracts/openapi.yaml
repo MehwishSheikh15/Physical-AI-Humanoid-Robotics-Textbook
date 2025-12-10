@@ -1,0 +1,47 @@
+openapi: 3.0.0
+info:
+  title: AI & Humanoid Robotics Book - RAG Chatbot API
+  version: 1.0.0
+paths:
+  /ask:
+    post:
+      summary: Ask a question to the RAG chatbot
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                  description: The user's question.
+                context:
+                  type: string
+                  description: Optional user-selected text for context-specific questions.
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  response:
+                    type: string
+                    description: The chatbot's answer.
+                  source_chunks:
+                    type: array
+                    items:
+                      type: string
+                    description: The chunks of text from the book used to generate the answer.
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+                    description: Error message.
