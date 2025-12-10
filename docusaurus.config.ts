@@ -15,8 +15,12 @@ const config: Config = {
   },
 
   customFields: {
+<<<<<<< HEAD
     githubRepoUrl:
       "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook",
+=======
+    githubRepoUrl: "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook",
+>>>>>>> 28faa9d4d9ca1b73b7057af050e365510a0f7bcf
   },
 
   // GitHub Pages settings
@@ -46,6 +50,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+<<<<<<< HEAD
           editUrl:
             "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook/edit/master/",
         },
@@ -53,6 +58,13 @@ const config: Config = {
           showReadingTime: true,
           editUrl:
             "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook/edit/master/blog/",
+=======
+          editUrl: "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook/edit/master/",
+        },
+        blog: {
+          showReadingTime: true,
+          editUrl: "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook/edit/master/blog/",
+>>>>>>> 28faa9d4d9ca1b73b7057af050e365510a0f7bcf
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -92,27 +104,16 @@ const config: Config = {
         {
           title: "Modules",
           items: [
-            {
-              label: "Module 1: ROS 2",
-              to: "/docs/Module-1-ROS2/week-01-intro-physical-ai",
-            },
-            {
-              label: "Module 2: Gazebo",
-              to: "/docs/Module-2-GAZEBO/week-06-gazebo-fundamentals",
-            },
-            {
-              label: "Module 3: NVIDIA Isaac",
-              to: "/docs/Module-3-ISSAC/week-08-isaac-intro",
-            },
-            {
-              label: "Module 4: VLA",
-              to: "/docs/Module-4-VLA/week-11-humanoid-development",
-            },
+            { label: "Module 1: ROS 2", to: "/docs/Module-1-ROS2/week-01-intro-physical-ai" },
+            { label: "Module 2: Gazebo", to: "/docs/Module-2-GAZEBO/week-06-gazebo-fundamentals" },
+            { label: "Module 3: NVIDIA Isaac", to: "/docs/Module-3-ISSAC/week-08-isaac-intro" },
+            { label: "Module 4: VLA", to: "/docs/Module-4-VLA/week-11-humanoid-development" },
           ],
         },
         {
           title: "Community",
           items: [
+<<<<<<< HEAD
             {
               label: "Stack Overflow",
               href: "https://stackoverflow.com/questions/tagged/docusaurus",
@@ -121,16 +122,24 @@ const config: Config = {
               label: "Discord",
               href: "https://discordapp.com/invite/docusaurus",
             },
+=======
+            { label: "Stack Overflow", href: "https://stackoverflow.com/questions/tagged/docusaurus" },
+            { label: "Discord", href: "https://discordapp.com/invite/docusaurus" },
+>>>>>>> 28faa9d4d9ca1b73b7057af050e365510a0f7bcf
             { label: "X", href: "https://x.com/docusaurus" },
           ],
         },
         {
           title: "More",
           items: [
+<<<<<<< HEAD
             {
               label: "GitHub",
               href: "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook",
             },
+=======
+            { label: "GitHub", href: "https://github.com/MehwishSheikh15/Physical-AI-Humanoid-Robotics-Textbook" },
+>>>>>>> 28faa9d4d9ca1b73b7057af050e365510a0f7bcf
           ],
         },
       ],
