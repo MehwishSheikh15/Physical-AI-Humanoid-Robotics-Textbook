@@ -45,7 +45,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/ai-robotics/ai-robotics-book/tree/main/",
+          editUrl: "https://mehwishsheikh15.github.io/Physical-AI-Humanoid-Robotics-Textbook/tree/master/",
         },
         blog: {
           showReadingTime: true,
