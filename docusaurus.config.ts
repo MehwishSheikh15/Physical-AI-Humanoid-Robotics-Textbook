@@ -15,11 +15,11 @@ const config: Config = {
   },
 
   customFields: {
-    githubRepoUrl: "https://github.com/ai-robotics/ai-robotics-book",
+    githubRepoUrl: "https://mehwishsheikh15.github.io/Physical-AI-Humanoid-Robotics-Textbook/",
   },
 
   url: "https://ai-robotics.github.io",
-  baseUrl: process.env.BASE_URL || "/ai-robotics-book/",
+  baseUrl: process.env.BASE_URL || "/Physical-AI-Humanoid-Robotics-Textbook/",
 
   organizationName: "MehwishSheikh15",
   projectName: "Physical-AI-Humanoid-Robotics-Textbook",
@@ -53,7 +53,7 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl: "https://github.com/ai-robotics/ai-robotics-book/tree/main/",
+          editUrl: "https://mehwishsheikh15.github.io/Physical-AI-Humanoid-Robotics-Textbook/tree/master/",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
@@ -84,7 +84,7 @@ const config: Config = {
           label: "Book Content",
         },
         {
-          href: "https://github.com/ai-robotics/ai-robotics-book",
+          href: "https://mehwishsheikh15.github.io/Physical-AI-Humanoid-Robotics-Textbook/",
           label: "GitHub",
           position: "right",
         },
@@ -136,7 +136,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/ai-robotics/ai-robotics-book",
+              href: "https://mehwishsheikh15.github.io/Physical-AI-Humanoid-Robotics-Textbook/",
             },
           ],
         },
