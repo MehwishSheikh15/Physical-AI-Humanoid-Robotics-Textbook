@@ -18,7 +18,7 @@ const config: Config = {
     githubRepoUrl: "https://mehwishsheikh15.github.io/Physical-AI-Humanoid-Robotics-Textbook/",
   },
 
-  url: "https://ai-robotics.github.io",
+  url: "https://mehwishsheikh15.github.io",
   baseUrl: process.env.BASE_URL || "/Physical-AI-Humanoid-Robotics-Textbook/",
 
   organizationName: "MehwishSheikh15",
