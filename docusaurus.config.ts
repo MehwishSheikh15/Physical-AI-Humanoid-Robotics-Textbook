@@ -19,7 +19,7 @@ const config: Config = {
   },
 
   // GitHub Pages settings
-  url: "https://MehwishSheikh15.github.io",
+  url: "https://physical-ai-humanoid-robotics-textb-eta-self.vercel.app",
   baseUrl: "/",
 
   organizationName: "MehwishSheikh15",
